@@ -1,10 +1,10 @@
-# 🏭 Industry 4.0 Simulation Environment
+# Industry 4.0 Simulation Environment
 
 ![Afbeelding1](https://github.com/user-attachments/assets/39305057-47e9-4c2e-9c13-7e400c621a7d)
 
 This repository contains a sophisticated simulation environment aimed at Industry 4.0 applications. The simulation provides a flexible platform for modeling smart factory scenarios involving autonomous production and transport units. These simulated units communicate via a decentralized bidding procedure, enabling detailed analysis, testing and optimization of dynamic factory processes. See [video](https://www.youtube.com/watch?v=Y9loZ_bbvng&ab_channel=SMB-M87) for an indepth demonstration.
 
-## 🔍 Key Objectives
+## Key Objectives
 
 ![Afbeelding2](https://github.com/user-attachments/assets/1347c148-e8f0-42dc-8e90-a273609069ad)
 
@@ -13,13 +13,13 @@ This repository contains a sophisticated simulation environment aimed at Industr
 - Integrate with external bidding systems via MQTT for comprehensive testing.
 - Benchmark performance and reliability through extended runtime simulations.
 
-## ⚙️ Core Features
+## Core Features
 
-🧠 Event-Driven Architecture
+Event-Driven Architecture
 - Powered by Akka.NET for fully asynchronous and event-driven execution.
 - Modular actor-based logic enables concurrent behavior and scalability.
 
-🖼️ Advanced 2D Visualization
+Advanced 2D Visualization
 - Real-time rendering using Vortice.Direct2D1.
 - Visual layers include:
   - Collision zones
@@ -27,15 +27,15 @@ This repository contains a sophisticated simulation environment aimed at Industr
   - Motion vectors
   - Path overlays
 
-🔗 MQTT Integration
+MQTT Integration
 - Seamless communication with external bidding platforms.
 - Simulated units act as independent digital agents capable of bidding, negotiating and executing.
 
-🎮 Runtime Interaction
+Runtime Interaction
 - Full user control: toggle parameters, switch overlays, pause/resume cycles.
 - Interactive unit inspection and status control with mouse events.
 
-📊 Logging & Benchmarking
+Logging & Benchmarking
 - Automatic generation of runtime dumps and logs.
 - Metrics include:
   - Collisions
@@ -43,7 +43,7 @@ This repository contains a sophisticated simulation environment aimed at Industr
   - Product throughput
   - Movement efficiency
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - Programming Language: C# (.NET 8)
 - Concurrency Model: Akka.NET (Actors)
@@ -51,7 +51,7 @@ This repository contains a sophisticated simulation environment aimed at Industr
 - Communication: MQTT protocol via custom client actors
 - Platform: Windows (native Win32 integration)
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 Simulation/  
@@ -72,7 +72,7 @@ Win32/                        # Native window management and rendering
 
 ![Afbeelding6](https://github.com/user-attachments/assets/b2ada7ed-4085-4907-860f-e9042d72e7c8)
 
-## 🚀 Getting Started
+## Getting Started
 
 - Launching the Simulation
   - Start the application executable.
